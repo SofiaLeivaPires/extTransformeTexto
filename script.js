@@ -26,6 +26,10 @@ window.document.addEventListener("DOMContentLoaded", function(){
 
     } )
 
-  
+    document.getElementById("limpar").addEventListener("click", function(){
+        document.querySelector("#input-text").value = ""
+        document.querySelector("#resultado-input").innerHTML = null
+    } )
+
 
 })
